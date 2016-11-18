@@ -76,12 +76,12 @@ while True:
           os.system('sudo python contror/BACK.py')
           os.system('mplayer sc/finish.wav')
           time.sleep(1) 
-       elif u'向左，' in  aa:
+       elif u'向右，' in  aa:
           sc('执行!')
           os.system('sudo python contror/LEFT.py')
           os.system('mplayer sc/finish.wav')
           time.sleep(1)
-       elif u'向右，' in  aa:
+       elif u'向左，' in  aa:
           sc('执行!')
           os.system('sudo python contror/RIGHT.py')
           os.system('mplayer sc/finish.wav')
